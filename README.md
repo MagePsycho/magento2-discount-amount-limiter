@@ -85,4 +85,4 @@ Please [visit our store](https://www.magepsycho.com/extensions/magento-2.html) f
 
 ## Contribution
 Any contribution to the development of `Magento 2 Discount Limiter` is highly welcome.  
-Th
+The best possibility to provide any code is to open a [pull request on GitHub](https://github.com/MagePsycho/magento2-product-discount-label/pulls).
