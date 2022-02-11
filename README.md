@@ -44,23 +44,39 @@ Some use cases:
 ![M2 Discount Limiter - Storefront Cart Page](https://www.magepsycho.com/media/catalog/product/4/0/40-m2-discount-limiter-storefront-maximum-discount.jpg)
 
 ## 🛠️ Installation
-1. Download the extension .zip file and extract the files.
-1. Copy the extension files from src/ folder to the {your-magento2-root-dir}/app/code/MagePsycho/DiscountLimit *(create non-existing folders manually)*
-1. Run the following series of commands from the SSH console of your server:
+
+### 1 Using Composer (Preferred)
+```
+composer require magepsycho/magento2-discountlimit
+```
+
+### 2 Using Modman
+```
+modman init
+modman clone git@github.com:MagePsycho/magento2-discount-amount-limiter.git
+```
+
+### 3 Using Zip File
+* Download the [Extension Zip File](https://github.com/MagePsycho/magento2-discount-amount-limiter/archive/master.zip)
+* Extract & upload the files to `/path/to/magento2/app/code/MagePsycho/DiscountLimit/`
+
+After installation by either means, activate the extension with following steps
+
+1. Enable the module
 ```
 php bin/magento module:enable MagePsycho_DiscountLimit --clear-static-content
 php bin/magento setup:upgrade
 ```
-1. Flush the store cache
+2. Flush the store cache
 ```
 php bin/magento cache:flush
 ```
-1. Deploy static content - *in Production mode only*
+3. Deploy static content - *in Production mode only*
 ```
 rm -rf pub/static/* var/view_preprocessed/*
 php bin/magento setup:static-content:deploy
 ```
-1. Go to Admin > MARKETING > Discount Limiter > Manage Settings
+4. Go to Admin > MARKETING > Discount Limiter > Manage Settings
 
 ## Live Demo:
 
