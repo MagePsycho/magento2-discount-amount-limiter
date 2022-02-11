@@ -7,8 +7,8 @@
 
 <div align="center">
 
-[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-discount-amount-limiter?sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-discountlimit)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-discountlimit.svg?style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-discountlimit/stats)
+[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-discount-amount-limiter?logo=packagist&sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-discountlimit)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-discountlimit.svg?logo=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-discountlimit/stats)
 ![Supported Magento Versions](https://img.shields.io/badge/magento-%202.3_|_2.4-brightgreen.svg?logo=magento&longCache=true&style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?color=%23234&style=for-the-badge)
 
@@ -43,7 +43,7 @@ Some use cases:
 
 ![M2 Discount Limiter - Storefront Cart Page](https://www.magepsycho.com/media/catalog/product/4/0/40-m2-discount-limiter-storefront-maximum-discount.jpg)
 
-## Installation
+## 🛠️ Installation
 1. Download the extension .zip file and extract the files.
 1. Copy the extension files from src/ folder to the {your-magento2-root-dir}/app/code/MagePsycho/DiscountLimit *(create non-existing folders manually)*
 1. Run the following series of commands from the SSH console of your server:
@@ -74,15 +74,17 @@ php bin/magento setup:static-content:deploy
 * Initial Release.
 
 ## Authors
+- Raj KB [![Twitter Follow](https://img.shields.io/twitter/follow/rajkbnp.svg?style=social)](https://twitter.com/rajkbnp)
 
-- Raj KB [Maintainer] [![Twitter Follow](https://img.shields.io/twitter/follow/rajkbnp.svg?style=social)](https://twitter.com/rajkbnp)
-- `{{This could be YOU}}` (see "Contribution" section)
+## Contributors
+
+![Contributors](https://contrib.rocks/image?repo=MagePsycho/magento2-discount-amount-limiter)
+
+## To Contribute
+Any contribution to the development of `Magento 2 Discount Limiter` is highly welcome.  
+The best possibility to provide any code is to open a [pull request on GitHub](https://github.com/MagePsycho/magento2-discount-amount-limiter/pulls).
 
 ## Need Support?
 If you encounter any problems or bugs, please create an issue on [GitHub](https://github.com/MagePsycho/magento2-discount-amount-limiter/issues).
 
 Please [visit our store](https://www.magepsycho.com/extensions/magento-2.html) for more FREE / paid extensions OR [contact us](https://magepsycho.com/contact) for customization / development services.
-
-## Contribution
-Any contribution to the development of `Magento 2 Discount Limiter` is highly welcome.  
-The best possibility to provide any code is to open a [pull request on GitHub](https://github.com/MagePsycho/magento2-discount-amount-limiter/pulls).
