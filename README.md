@@ -94,7 +94,7 @@ php bin/magento setup:static-content:deploy
 
 ## Contributors
 
-![Contributors](https://contrib.rocks/image?repo=MagePsycho/magento2-discount-amount-limiter)
+![Contributors](https://contrib.rocks/image?repo=magepsycho/magento2-discount-amount-limiter)
 
 ## To Contribute
 Any contribution to the development of `Magento 2 Discount Limiter` is highly welcome.  
