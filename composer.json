@@ -20,7 +20,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "MagePsycho\\DiscountLimit\\": ""
+      "MagePsycho\\DiscountLimit\\": "src"
     }
   },
   "minimum-stability": "dev",
